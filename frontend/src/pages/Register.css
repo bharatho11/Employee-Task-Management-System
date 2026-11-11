@@ -1,0 +1,126 @@
+
+.register-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    background: #f5f6fb;
+    font-family: 'Inter', sans-serif;
+}
+
+.register-card {
+    width: 100%;
+    max-width: 440px;
+    padding: 35px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(30, 30, 60, 0.07);
+}
+
+.register-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.register-logo {
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background: #7650d9;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.register-brand h2 {
+    color: #202945;
+    font-size: 21px;
+}
+
+.register-card h1 {
+    text-align: center;
+    color: #202945;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.register-subtitle {
+    text-align: center;
+    color: #9298aa;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.register-card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-card label {
+    color: #424b65;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.register-card input {
+    padding: 12px;
+    margin-bottom: 17px;
+    border: 1px solid #e2e4ed;
+    border-radius: 8px;
+    outline: none;
+    font-size: 13px;
+}
+
+.register-card input:focus {
+    border-color: #7650d9;
+}
+
+.register-card button {
+    padding: 13px;
+    background: #7650d9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.register-card button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.register-error,
+.register-success {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.register-error {
+    color: #c0392b;
+}
+
+.register-success {
+    color: #21965b;
+}
+
+.register-login {
+    text-align: center;
+    margin-top: 22px;
+    font-size: 13px;
+    color: #9298aa;
+}
+
+.register-login a {
+    color: #7650d9;
+    font-weight: 600;
+    text-decoration: none;
+}

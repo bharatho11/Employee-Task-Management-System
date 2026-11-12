@@ -6,7 +6,7 @@ A full-stack web application designed to simplify employee task assignment, task
 
 The Employee Task & Productivity Management System enables managers to create tasks, assign them to employees, and monitor their progress. Employees can view their assigned tasks and update their status. The application also maintains task history and sends automatic notifications to managers when employees update task progress.
 
-## Key Features
+# Key Features
 
 ### Manager Module
 - Manager login and role-based access.
